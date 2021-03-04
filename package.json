@@ -1,0 +1,25 @@
+{
+  "name": "beyonddothan",
+  "version": "1.0.0",
+  "description": "> We are believers who embrace the reality of the gift of Christ living within us. We believe in studying the word in depth and understanding it. We seek to walk with those who seek to live life as God calls us to",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build static/css/index.css -o static/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamauvick/BeyondDothan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamauvick/BeyondDothan/issues"
+  },
+  "homepage": "https://github.com/kamauvick/BeyondDothan#readme"
+}
