@@ -1,65 +1,40 @@
-{% extends "base.html" %} {% block content %}
+{% extends "base.html" %}
+{% block content %}
  <!--nav holder-->
-<div>
-  <!--nav-->
-  <nav class="px-4 py-4 bg-transparent">
-    <div class="md:hidden" id="nav-small">
-      <div>
-        <svg id="toggle" class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path>
-        </svg>
-      </div>
-
-      <div class="hidden flex justify-center" id="menu">
-        <div class="text-sm font-semibold text-white-300 flex flex-col space-y-2">
-          <div class=""><a href="#" class="who_we_are cursor-pointer tracking-wide ">Who We Are</a></div>
-          <div class=""><a href="#" class="learn_with_us cursor-pointer tracking-wide ">Learn With Us</a></div>
-          <div class=""><a href="#" class="connect_with_us cursor-pointer tracking-wide ">Connect With Us</div>
-          <div class="mt-2"><a href="#" class="our_resources cursor-pointer tracking-wide ">Our Resources</a></div>
+<div class="bg-hero1 bg-no-repeat h-full bg-cover md:bg-center h-screen">
+  <div class="h-full w-full bg-gray-900 opacity-80" >
+    <div>
+      <div id="overlay">
+        {% include "nav.html" %}
+      <div class="mt-10 items-center"></div>
+      <div class="h-screen flex flex-col justify-center -mt-48 space-y-4">
+       <!--Beyond Dothan header-->
+        <div id="header" class="text-center text-5xl md:text-7xl font-bold font-mono text-red-600 px-4 align-center w-full">
+         {{ title }}
         </div>
-      </div>  
+      <!--Control Buttons-->
+        <div id="getting started" class="flex justify-center text-white">
+          <button class="rounded-full px-4 py-3 border-primary border-2 cursor-pointer mr-2 bg-logo48">Get started</button>
+          <button class="rounded-full px-4 py-3 border-primary border-2 cursor-pointer ml-2">I'm new here</button>
+        </div>
+      </div>
+        <!--Homepage verse-->
+        <div class="flex items-end -mt-32 z-50">
+          <div>
+           <div id="bdverse" class="block -p-6 md:absolute bottom-0 right-0 text-red-500 bg-white p-6 rounded-lg shadow-lg m-6 opacity-80 transform md:-rotate-2">
+             <p class="text-center font-mono text-sm">
+               <span class="md:text-center">“Don’t be afraid,” the prophet answered.</span><br>
+               <span class="ml-1 md:text-center">Those who are with us are more than</span><br>
+               <span class="ml-6 md:text-center">those who are with them.</span><br>  
+               <span class="text-gray-400 font-semibold">2nd Kings 3: 16</span>
+             </p>
+           </div>
+          </div>
+        </div>
+      
+      </div>
+      </div>
     </div>
-
-    <div class="hidden md:block" id="nav-large">
-      <div class="flex items-center justify-between">
-        <div>
-          <svg class="ml-4 w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
-             </path>
-          </svg>
-        </div> 
-        <div class="text-sm font-semibold text-white-100 flex space-x-4">
-          <div class=""><a href="#" class="nav-menu who_we_are px-4 py-3 border-primary border-2 rounded-full cursor-pointer tracking-wide ">Who We Are</a></div>
-          <div class=""><a href="#" class="nav-menu learn_with_us  cursor-pointer tracking-wide ">Learn With Us</a></div>
-          <div class=""><a href="#" class="nav-menu connect_with_us cursor-pointer tracking-wide ">Connect With Us</div>
-          <div class=""><a href="#" class="nav-menu our_resources tracking-wide ">Our Resources</a></div>
-        </div>
-       </div>
-      </div>
-  </nav>
-
-<div class="mt-10"></div>
-  <!--Beyond Dothan header-->
-  <div id="header" class="text-center text-6xl text-red-400 px-4 align-center mt-10 pt-8">
-    Beyond Dothan Experience
   </div>
-  <!--Control Buttons-->
-  <div id="getting started" class=" flex items-center justify-center text-white py-10 mt-10">
-    <button class="rounded-full px-4 py-3 border-primary border-2 cursor-pointer mr-2 bg-logo48">Get started</button>
-    <button class="rounded-full px-4 py-3 border-primary border-2 cursor-pointer ml-2">I'm new here</button>
-  </div>
-  <!--Homepage verse-->
-  <div id="bdverse" class="block px-6 md:absolute bottom-0 right-0 py-6 text-white">
-    <p class="text:xl">
-      <span class="md:text-center">“Don’t be afraid,” the prophet answered.</span><br>
-      <span class="ml-1 md:text-center">“Those who are with us are more than</span><br>
-      <span class="ml-6 md:text-center">those who are with them.”</span>
-    </p>
-    <span class="text-center ml-10 md:text-center">2nd Kings 3: 16</span>
-  </div>
-</div>
 </div>
 {% endblock content %}

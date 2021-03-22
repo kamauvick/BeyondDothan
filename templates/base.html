@@ -11,6 +11,8 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='css/styles.css') }}"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap" rel="stylesheet">
     <title>
       {% if title %}
       {{ title }}
@@ -18,12 +20,11 @@
       {% endif %}
     </title>
   </head>
-  <body class="bg-hero1 h-full bg-cover">
-    <div >
+  <body class="">
       {% block content %}
 
       {% endblock content %}
-    </div>
     <script src="/static/index.js"></script>
   </body>
 </html>
+
