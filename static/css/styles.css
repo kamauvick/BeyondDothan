@@ -4230,23 +4230,11 @@ video {
 }
 
 .bg-hero1 {
-  background-image: url('https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80');
-}
-
-.bg-hero2 {
-  background-image: url('resimageshero2.jpg');
-}
-
-.bg-hero3 {
-  background-image: url('resimageshero3.jpg');
+  background-image: url('https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
 
 .bg-hero-pattern {
-  background-image: url('https://images.unsplash.com/photo-1487616892920-df7106ed3512?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGNodXJjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
-}
-
-.bg-footer-texture {
-  background-image: url('https://unsplash.com/photos/M1VfDMOrfSw');
+  background-image: url('https://media.swncdn.com/cms/CCOM/46076-old-church.630w.tn.jpg');
 }
 
 .bg-logo-icon {
@@ -11249,6 +11237,10 @@ video {
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-caudex {
+  font-family: caudex;
 }
 
 .font-thin {
@@ -31200,6 +31192,8 @@ video {
           animation: bounce 1s infinite;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap');
+
 .badge{
   border-radius: 9999px;
   font-weight: 700;
@@ -31225,6 +31219,14 @@ video {
   padding-right: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+.bg-hero1{
+  background-repeat: no-repeat;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 640px) {
@@ -34907,23 +34909,11 @@ video {
   }
 
   .sm\:bg-hero1 {
-    background-image: url('https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80');
-  }
-
-  .sm\:bg-hero2 {
-    background-image: url('resimageshero2.jpg');
-  }
-
-  .sm\:bg-hero3 {
-    background-image: url('resimageshero3.jpg');
+    background-image: url('https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   }
 
   .sm\:bg-hero-pattern {
-    background-image: url('https://images.unsplash.com/photo-1487616892920-df7106ed3512?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGNodXJjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
-  }
-
-  .sm\:bg-footer-texture {
-    background-image: url('https://unsplash.com/photos/M1VfDMOrfSw');
+    background-image: url('https://media.swncdn.com/cms/CCOM/46076-old-church.630w.tn.jpg');
   }
 
   .sm\:bg-logo-icon {
@@ -41926,6 +41916,10 @@ video {
 
   .sm\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-caudex {
+    font-family: caudex;
   }
 
   .sm\:font-thin {
@@ -65479,23 +65473,11 @@ video {
   }
 
   .md\:bg-hero1 {
-    background-image: url('https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80');
-  }
-
-  .md\:bg-hero2 {
-    background-image: url('resimageshero2.jpg');
-  }
-
-  .md\:bg-hero3 {
-    background-image: url('resimageshero3.jpg');
+    background-image: url('https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   }
 
   .md\:bg-hero-pattern {
-    background-image: url('https://images.unsplash.com/photo-1487616892920-df7106ed3512?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGNodXJjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
-  }
-
-  .md\:bg-footer-texture {
-    background-image: url('https://unsplash.com/photos/M1VfDMOrfSw');
+    background-image: url('https://media.swncdn.com/cms/CCOM/46076-old-church.630w.tn.jpg');
   }
 
   .md\:bg-logo-icon {
@@ -72498,6 +72480,10 @@ video {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-caudex {
+    font-family: caudex;
   }
 
   .md\:font-thin {
@@ -96051,23 +96037,11 @@ video {
   }
 
   .lg\:bg-hero1 {
-    background-image: url('https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80');
-  }
-
-  .lg\:bg-hero2 {
-    background-image: url('resimageshero2.jpg');
-  }
-
-  .lg\:bg-hero3 {
-    background-image: url('resimageshero3.jpg');
+    background-image: url('https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   }
 
   .lg\:bg-hero-pattern {
-    background-image: url('https://images.unsplash.com/photo-1487616892920-df7106ed3512?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGNodXJjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
-  }
-
-  .lg\:bg-footer-texture {
-    background-image: url('https://unsplash.com/photos/M1VfDMOrfSw');
+    background-image: url('https://media.swncdn.com/cms/CCOM/46076-old-church.630w.tn.jpg');
   }
 
   .lg\:bg-logo-icon {
@@ -103070,6 +103044,10 @@ video {
 
   .lg\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-caudex {
+    font-family: caudex;
   }
 
   .lg\:font-thin {
@@ -126623,23 +126601,11 @@ video {
   }
 
   .xl\:bg-hero1 {
-    background-image: url('https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80');
-  }
-
-  .xl\:bg-hero2 {
-    background-image: url('resimageshero2.jpg');
-  }
-
-  .xl\:bg-hero3 {
-    background-image: url('resimageshero3.jpg');
+    background-image: url('https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   }
 
   .xl\:bg-hero-pattern {
-    background-image: url('https://images.unsplash.com/photo-1487616892920-df7106ed3512?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGNodXJjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
-  }
-
-  .xl\:bg-footer-texture {
-    background-image: url('https://unsplash.com/photos/M1VfDMOrfSw');
+    background-image: url('https://media.swncdn.com/cms/CCOM/46076-old-church.630w.tn.jpg');
   }
 
   .xl\:bg-logo-icon {
@@ -133642,6 +133608,10 @@ video {
 
   .xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-caudex {
+    font-family: caudex;
   }
 
   .xl\:font-thin {
@@ -157195,23 +157165,11 @@ video {
   }
 
   .\32xl\:bg-hero1 {
-    background-image: url('https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80');
-  }
-
-  .\32xl\:bg-hero2 {
-    background-image: url('resimageshero2.jpg');
-  }
-
-  .\32xl\:bg-hero3 {
-    background-image: url('resimageshero3.jpg');
+    background-image: url('https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   }
 
   .\32xl\:bg-hero-pattern {
-    background-image: url('https://images.unsplash.com/photo-1487616892920-df7106ed3512?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGNodXJjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
-  }
-
-  .\32xl\:bg-footer-texture {
-    background-image: url('https://unsplash.com/photos/M1VfDMOrfSw');
+    background-image: url('https://media.swncdn.com/cms/CCOM/46076-old-church.630w.tn.jpg');
   }
 
   .\32xl\:bg-logo-icon {
@@ -164214,6 +164172,10 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-caudex {
+    font-family: caudex;
   }
 
   .\32xl\:font-thin {
