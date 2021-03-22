@@ -4,14 +4,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'hero1': "url('https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80')",
-        'hero2': "url('res\images\hero2.jpg')",
-        'hero3': "url('res\images\hero3.jpg')",
-        'hero-pattern': "url('https://images.unsplash.com/photo-1487616892920-df7106ed3512?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGNodXJjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60')",
-        'footer-texture': "url('https://unsplash.com/photos/M1VfDMOrfSw')",
+        'hero1': "url('https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')",
+        'hero-pattern': "url('https://media.swncdn.com/cms/CCOM/46076-old-church.630w.tn.jpg')",
         'logo-icon': "/res/beyond_dothan_logo",
-        'logo48':"url('C:\Users\v-viwaic\Desktop\Vick\BeyondDothan\res\images')",
-       })
+       }),
+      fontFamily: {
+        'caudex': ['caudex',],
+      },
     },
   },
   variants: {
