@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+#ignore res files for dothand
+/res
+.res
+./res
+
+./node_modules
